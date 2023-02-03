@@ -41,6 +41,8 @@ resource "azurerm_network_security_group" "mtc-sg" {
 
   tags = {
     environment = "dev"
+
+    
   }
 }
 
