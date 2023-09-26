@@ -25,6 +25,10 @@ provider "azurerm" {
   features {}
 }
 ```
+**Step 4: Initialize Terraform**
+```sh
+terraform init
+```
 
 
 
