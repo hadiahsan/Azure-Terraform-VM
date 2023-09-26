@@ -24,6 +24,7 @@ touch main.tf
 provider "azurerm" {
   features {}
 }
+```
 
 
 
