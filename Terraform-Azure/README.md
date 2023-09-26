@@ -9,30 +9,14 @@ Follow these steps to set up your Terraform configuration and apply it using you
 - [Terraform](https://www.terraform.io/downloads.html) installed on your local machine.
 - Access to the cloud provider (e.g., AWS, Azure, GCP) you intend to use.
 
+**Step 1: Create a Directory**
 ```sh
-# Step 1: Create a Directory
 mkdir my-terraform-project
 cd my-terraform-project
-
-# Step 2: Create `main.tf` File
+```
+***Step 2: Create a 'main.tf' file**
 touch main.tf
 
-# Step 3: Define Terraform Provider (Replace 'aws' with your provider)
-# Example for AWS:
-provider "aws" {
-  region = "us-east-1" # Your desired AWS region
-}
 
-# Step 4: Initialize Terraform
-terraform init
-
-# Step 5: Define Resources (Example resource for an AWS instance)
-resource "aws_instance" "example_instance" {
-  ami           = "ami-0c55b159cbfafe1f0"
-  instance_type = "t2.micro"
-}
-
-# Step 6: Apply Configuration
-terraform apply
 
 
