@@ -18,6 +18,15 @@ cd my-terraform-project
 ```sh
 touch main.tf
 ```
+**Step 3: Define Terraform Provider (Replace 'azurerm' with your provider)**
+```hcl
+# Example for Microsoft Azure (azurerm provider):
+provider "azurerm" {
+  features {}
+}
+
+
+
 
 
 
