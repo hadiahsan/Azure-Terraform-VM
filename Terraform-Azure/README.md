@@ -14,8 +14,10 @@ Follow these steps to set up your Terraform configuration and apply it using you
 mkdir my-terraform-project
 cd my-terraform-project
 ```
-***Step 2: Create a 'main.tf' file**
+**Step 2: Create a 'main.tf' file**
+```sh
 touch main.tf
+```
 
 
 
